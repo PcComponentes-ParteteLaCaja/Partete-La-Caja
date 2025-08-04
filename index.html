@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Redirigiendo a un vídeo aleatorio...</title>
+    <script>
+      const videos = [
+        "https://youtube.com/shorts/-0eSskQGxhw?feature=share",
+        "https://youtube.com/shorts/tbiBBLZuqpg?feature=share",
+        "https://youtube.com/shorts/0FZz7INFpU4?feature=share",
+        "https://youtube.com/shorts/6TVNFxvPeog?feature=share",
+        "https://youtube.com/shorts/3iVj1jYkzMQ?feature=share",
+      ];
+      const randomIndex = Math.floor(Math.random() * videos.length);
+      window.location.href = videos[randomIndex];
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo a un vídeo aleatorio...</p>
+  </body>
+</html>
